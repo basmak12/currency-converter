@@ -27,7 +27,7 @@ const Currency:any =  {
         {
             name:"amount",
             message:"Enter your amount",
-            type:"number"
+            type:"number",
             },
     ]
 )
