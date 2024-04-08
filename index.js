@@ -23,7 +23,7 @@ let userAnswer = await inquirer.prompt([
     {
         name: "amount",
         message: "Enter your amount",
-        type: "number"
+        type: "number",
     },
 ]);
 let fromAmount = Currency[userAnswer.from];
